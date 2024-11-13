@@ -1,0 +1,51 @@
+/* Active link style */
+.active-link {
+    color: #00ff2f;
+    /* Active color */
+    font-weight: bold;
+  
+}
+
+/* Optional: Hover style for active link */
+.nav-link.active-link:hover {
+    color: #0056b3;
+    /* Darker shade of blue when hovered */
+}
+
+
+/* When the News dropdown is active */
+.active-dropdown .nav-link {
+    color: #007bff;
+    /* Change color when dropdown is active */
+    background-color: #f8f9fa;
+    /* Optional: background color for active dropdown */
+}
+
+/* Style for the active link in the dropdown */
+.active-link {
+  
+    /* Active link background color */
+color: #007bff;
+    /* Active link text color */
+}
+
+/* Optional: If you want to change the color of the dropdown link on hover as well */
+.nav-link.active-dropdown:hover {
+    color: #0056b3;
+    /* Darker color when hovering over the active dropdown */
+}
+
+body {
+    padding-top: 60px;
+    /* Adjust this value based on your navbar height */
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    /* Ensure it stays on top of other elements */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Optional: Add shadow for better visibility */
+}
